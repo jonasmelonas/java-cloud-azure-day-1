@@ -32,5 +32,7 @@ public class Game {
     private User user;
 
     public Game(String title, int releaseYear) {
+        this.title = title;
+        this.releaseYear = releaseYear;
     }
 }

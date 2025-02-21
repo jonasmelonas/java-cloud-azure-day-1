@@ -31,5 +31,11 @@ public class User {
     private List<Game> games;
 
     public User(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    public User(int id) {
+        this.id = id;
     }
 }
